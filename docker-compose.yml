@@ -1,0 +1,6 @@
+services:
+  alquimia-app:
+    build: .
+    container_name: alquimia-app
+    ports:
+      - "8080:8080"
